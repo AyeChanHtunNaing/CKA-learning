@@ -7,17 +7,17 @@ The notes are written to make Kubernetes fundamentals easier to understand with 
 
 | No. | Topic | Description |
 |---|---|---|
-| 1 | Kubernetes Cluster Architecture | Explains the relationship between the Control Plane and Worker Nodes |
-| 2 | Control Plane Components | Covers `kube-apiserver`, `etcd`, `kube-scheduler`, and `kube-controller-manager` |
-| 3 | Worker Node Components | Explains `kubelet`, `kube-proxy`, container runtime, Pods, and Services |
-| 4 | Pods | Introduces Pods as the smallest deployable unit in Kubernetes |
-| 5 | ReplicaSets | Explains how ReplicaSets maintain the desired number of Pod replicas |
-| 6 | Deployments | Covers Deployment, ReplicaSet, Pod relationship, rolling updates, and rollbacks |
-| 7 | Services | Explains ClusterIP, NodePort, LoadBalancer, selectors, and service traffic flow |
-| 8 | Namespaces | Covers resource isolation, namespace commands, DNS format, and ResourceQuota |
-| 9 | Imperative vs Declarative | Compares command-based and YAML-based Kubernetes management |
-| 10 | `kubectl apply` Command | Explains declarative apply, three-way merge, and last-applied configuration |
-| 11 | Certification Tips | Provides useful imperative commands for faster CKA exam practice |
+| 1 | [Kubernetes Cluster Architecture](./kubernetes_cluster_architecture_note.md) | Explains the relationship between the Control Plane and Worker Nodes |
+| 2 | [Control Plane Components](./control_plane_components_note.md) | Covers `kube-apiserver`, `etcd`, `kube-scheduler`, and `kube-controller-manager` |
+| 3 | [Worker Node Components](./worker_node_components_note.md) | Explains `kubelet`, `kube-proxy`, container runtime, Pods, and Services |
+| 4 | [Pods](./kubernetes_pods_note.md) | Introduces Pods as the smallest deployable unit in Kubernetes |
+| 5 | [ReplicaSets](./kubernetes_replicaset_note.md) | Explains how ReplicaSets maintain the desired number of Pod replicas |
+| 6 | [Deployments](./kubernetes_deployments_note.md) | Covers Deployment, ReplicaSet, Pod relationship, rolling updates, and rollbacks |
+| 7 | [Services](./kubernetes_services_note.md) | Explains ClusterIP, NodePort, LoadBalancer, selectors, and service traffic flow |
+| 8 | [Namespaces](./kubernetes_namespaces_note.md) | Covers resource isolation, namespace commands, DNS format, and ResourceQuota |
+| 9 | [Imperative vs Declarative](./imperative_vs_declarative_note.md) | Compares command-based and YAML-based Kubernetes management |
+| 10 | [`kubectl apply` Command](./kubectl_apply_command_note.md) | Explains declarative apply, three-way merge, and last-applied configuration |
+| 11 | [Certification Tips](./kubernetes_certification_tips_imperative_commands.md) | Provides useful imperative commands for faster CKA exam practice |
 
 ## 🗂️ Folder Structure
 
